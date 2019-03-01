@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Editor</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Editor</h2>
+    <div class="wrp">
+      <div class="options">
+        <input type="file" id="img-file">
+        <div class="flex-item">
+          <label for="slider">Jasnośc</label><input type="range" name="slider" id="slider" class="slider" min="0" max="400" value="100" step="4">
+        </div>
+        <div class="flex-item">
+          <label for="slider2">Kontrast</label><input type="range" name="slider2" id="slider2" class="slider" min="0" max="400" value="100" step="1">
+        </div>
+        <div class="flex-item">
+          <label for="slider3">Nasycenie</label><input type="range" name="slider3" id="slider3" class="slider" min="0" max="400" value="100" step="1">
+        </div>
+        <div class="flex-item">
+          <button type="button" id="clearCanvas" class="clear">Wyczyśc</button>
+        </div>
+      </div>
+      <canvas></canvas>
+    </div>
+
+    <script type="text/javascript" src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+canvas{
+  background-color: white;
+  width: 800px;
+  height: 450px;
+}
+h2{
+  color: black;
+}
+*{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+}
+body{
+  background-color: #eee;
+}
+.options{
+  background-color: #8FB299;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+#img-file{
+
+}
+.wrp{
+  width: 800px;
+  height: 470px;
+  margin: 0 auto;
+}
+.slider{
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  height: 15px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 10px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.flex-item label{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.clear{
+  background-color: #4CAF50;
+  padding: 9px;
+  border: 0;
+  border-radius: 17px;
+}
+.clear:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+.clear:focus{
+  outline: 0;
+  background: red;
+}

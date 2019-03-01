@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sounds</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="keyboard">
+      <ul>
+        <li data-songName="boom.wav" data-key="65">Boom <i>A</i></li>
+        <li data-songName="kick.wav" data-key="70">Kick <i>F</i></li>
+        <li data-songName="ride.wav" data-key="71">Ride <i>G</i></li>
+      </ul>
+    </section>
+    <section class="channelChoose">
+        <select name="audioChannel" id="audioChannel">
+            <option value="1">Channel 1</option>
+            <option value="2">Channel 2</option>
+            <option value="3">Channel 3</option>
+            <option value="4">Channel 4</option>
+        </select>
+    </section>
+    <button id="rec" type="button" name="button">Zacznij nagrywanie</button>
+    <button id="recEnd" type="button" name="button">Zakończ nagrywanie</button>
+    <div class="recorderAudios">
+
+    </div>
+<script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
